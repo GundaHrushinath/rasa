@@ -1,0 +1,109 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - dashboard
+  - dashboard_path
+  - home
+  - about_us
+  - overview
+  - leadership_team
+  - gallery
+  - contact
+  - focus_area
+  - air_quality
+  - water_supply
+  - weather_monitoring
+  - energy
+  - datasets
+  - smart_campus
+  - research_projects
+  - send_email
+  - send_tweet
+  - send_linkedin
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_dashboard:
+  - text: "Go to [Dashboard](https://smartcitylivinglab.iiit.ac.in/home/)"
+
+  utter_home:
+  - text: "Go to [Home](https://smartcityresearch.iiit.ac.in/index.html)"
+
+  utter_about_us:
+  - text: "Go to [About Us](https://smartcityresearch.iiit.ac.in/about.html)"
+
+  utter_overview:
+  - text: "Go to [Overview](https://smartcityresearch.iiit.ac.in/overview.html)"
+
+  utter_leadership_team:
+  - text: "Go to [Leadership Team](https://smartcityresearch.iiit.ac.in/leadership.html)."
+
+  utter_gallery:
+  - text: "Go to [Gallery](https://smartcityresearch.iiit.ac.in/gallery.html)."
+
+  utter_contact:
+  - text: "Go to [Contact Us](https://smartcityresearch.iiit.ac.in/index.html#contact)."
+
+  utter_focus_area:
+  - text: "Go to [Focus Area](https://smartcityresearch.iiit.ac.in/focusarea.html)."
+
+  utter_air_quality:
+  - text: "Go to [Air Quality](https://smartcityresearch.iiit.ac.in/air.html)."
+
+  utter_water_supply:
+  - text: "Go to [Water Supply](https://smartcityresearch.iiit.ac.in/water.html)."
+
+  utter_weather_monitoring:
+  - text: "Go to [Weather Monitoring](https://smartcityresearch.iiit.ac.in/weather.html)."
+
+  utter_energy:
+  - text: "Go to [Energy](https://smartcityresearch.iiit.ac.in/energy.html)."
+
+  utter_datasets:
+  - text: "Go to [Datasets](https://smartcityresearch.iiit.ac.in/datasets.html)."
+
+  utter_smart_campus:
+  - text: "Go to [Smart Campus](https://smartcityresearch.iiit.ac.in/smartcampus.html)."
+
+  utter_research_projects:
+  - text: "Go to [Research Projects](https://smartcityresearch.iiit.ac.in/researchprojects.html)."
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_send_email:
+  - text: "Mail to [Smart City Research Centre]( mailto:smartcityresearch@iiit.ac.in)"
+
+  utter_send_tweet:
+  - text: "Tweet [now](https://twitter.com/sclivinglabhyd)"
+
+  utter_send_linkedin:
+  - text: "Message in [LinkedIn](https://www.linkedin.com/company/smart-city-living-lab-iiith/)"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

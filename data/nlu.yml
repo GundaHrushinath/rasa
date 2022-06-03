@@ -1,0 +1,224 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: dashboard
+  examples: |
+    - dashboard
+    - Open dashboard
+    - Dashboard
+    - show dashboard
+    - DASHBOARD
+
+- intent: home
+  examples: |
+    - Home
+    - home
+    - HOME
+    - Open Home
+
+- intent: about_us
+  examples: |
+    - About us
+    - about us
+    - ABOUT US
+    - Open About Us
+
+- intent: overview
+  examples: |
+    - Overview
+    - overview
+    - OVERVIEW
+    - Open Overview
+
+- intent: leadership_team
+  examples: |
+    - Leadership Team
+    - leadership team
+    - LEADERSHIP TEAM
+    - Open Leadership Team
+
+- intent: gallery
+  examples: |
+    - Gallery
+    - gallery
+    - GALLERY
+    - Open Gallery
+
+- intent: contact
+  examples: |
+    - Contact
+    - contact
+    - CONTACT
+    - Open Contact
+
+- intent: focus_area
+  examples: |
+    - Focus area
+    - focus area
+    - FOCUS AREA
+    - Open Focus Area
+
+- intent: air_quality
+  examples: |
+    - Air Quality
+    - air quality
+    - AIR QUALITY
+    - Open Air Quality
+
+- intent: water_supply
+  examples: |
+    - Water Supply
+    - water supply
+    - WATER SUPPLY
+    - Open Water Supply
+
+- intent: weather_monitoring
+  examples: |
+    - Weather Monitoring
+    - weather monitoring
+    - WEATHER MONITORING
+    - Open Weather Monitoring
+
+- intent: energy
+  examples: |
+    - Energy
+    - ENERGY
+    - energy
+    - Open Energy
+
+- intent: datasets
+  examples: |
+    - Datasets
+    - datasets
+    - DATASETS
+    - Open Datasets
+
+- intent: smart_campus
+  examples: |
+    - Smart Campus
+    - smart campus
+    - SMART CAMPUS
+    - Open Smart Campus
+
+- intent: research_projects
+  examples: |
+    - Research Projects
+    - research projects
+    - RESEARCH PROJECTS
+    - Open Research Projects
+
+- intent: send_email
+  examples: |
+    - mail scrc
+    - send email to scrc
+    - SEND EMAIL TO SCRC
+    - mail to scrc
+    - MAIL TO SCRC
+    - send mail to smart city research center
+
+- intent: send_tweet
+  examples: |
+    - open twitter of scrc
+    - SEND MESSAGE TO SCRC IN TWITTER
+    - tweet on scrc
+    - TWEET ON SCRC
+    - tweet 
+
+- intent: send_linkedin
+  examples: |
+    - open linkedin of scrc
+    - SEND MESSAGE TO SCRC IN LINKEDIN
+    - linkedin scrc
+    - LINKEDIN SCRC
+    - send message to scrc in linkedin
+    - message in linkedin
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good bye
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    

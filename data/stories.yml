@@ -1,0 +1,120 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: dashboard_path
+  steps:
+  - intent: dashboard
+  - action: utter_dashboard
+
+- story: home_path
+  steps:
+  - intent: home
+  - action: utter_home
+
+- story: about_us_path
+  steps:
+  - intent: about_us
+  - action: utter_about_us
+
+- story: overview_path
+  steps:
+  - intent: overview
+  - action: utter_overview
+
+- story: LEADERSHIP TEAM
+  steps:
+  - intent: leadership_team
+  - action: utter_leadership_team
+
+- story: GALLERY
+  steps:
+  - intent: gallery
+  - action: utter_gallery
+
+- story: CONTACT
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- story: FOCUS AREA
+  steps:
+  - intent: focus_area
+  - action: utter_focus_area
+
+- story: AIR QUALITY
+  steps:
+  - intent: air_quality
+  - action: utter_air_quality
+
+- story: WATER SUPPLY
+  steps:
+  - intent: water_supply
+  - action: utter_water_supply
+
+- story: WEATHER MONITORING
+  steps:
+  - intent: weather_monitoring
+  - action: utter_weather_monitoring
+
+- story: ENERGY
+  steps:
+  - intent: energy
+  - action: utter_energy
+
+- story: DATASETS
+  steps:
+  - intent: datasets
+  - action: utter_datasets
+
+- story: SMART CAMPUS
+  steps:
+  - intent: smart_campus
+  - action: utter_smart_campus
+
+- story: RESEARCH PROJECTS
+  steps:
+  - intent: research_projects
+  - action: utter_research_projects
+
+- story: SEND EMAIL
+  steps:
+  - intent: send_email
+  - action: utter_send_email
+
+- story: SEND LINKEDIN
+  steps:
+  - intent: send_linkedin
+  - action: utter_send_linkedin
+
+- story: SEND TWEET
+  steps:
+  - intent: send_tweet
+  - action: utter_send_tweet
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
